@@ -1,0 +1,33 @@
+name: optoidr-mcp
+channels:
+  - conda-forge
+dependencies:
+  # Use python 3.7
+  - python=3.7
+  # === jupyter notebook ===
+  - jupyter
+  # === scientific and data analysis basics ===
+  - numpy
+  - scipy
+  - pandas=1.0.3
+  - xlrd #optional dependency for pandas to load excel files
+  - xarray
+  - scikit-learn
+  - statsmodels
+  # end of cientific and data analysis basics
+  # === visualization ===
+  - altair
+  - altair_saver
+  - matplotlib
+  - seaborn
+  # end of visualization
+
+  # === image processing ===
+  - scikit-image
+
+  # === pip
+  - pip
+  - pip:
+    - -e .
+    # List package dependencies for reproducibility
+    - sinfo

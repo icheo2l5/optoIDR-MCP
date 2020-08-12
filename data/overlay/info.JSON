@@ -1,0 +1,16 @@
+[
+   {
+      "folder": "1",
+      "channels": [
+         "droplet",
+         "mcp"
+      ]
+   },
+   {
+      "folder": "2",
+      "channels": [
+         "mcp",
+         "droplet"
+      ]
+   }
+]
